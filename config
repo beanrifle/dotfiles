@@ -1,0 +1,11 @@
+# UMich GitLab
+Host gitlab
+    HostName gitlab.com
+    User git
+    IdentityFile ~/.ssh/mmdarden_rsa
+
+# CAEN
+Host youngben
+    HostName login.engin.umich.edu
+    User youngben
+    Compression yes
